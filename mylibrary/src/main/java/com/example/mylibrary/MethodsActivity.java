@@ -23,4 +23,8 @@ public class MethodsActivity extends AppCompatActivity {
     public String Build3(){
         return "build 3 successfully";
     }
+
+    public String player(){
+        return "build 3 successfully";
+    }
 }
