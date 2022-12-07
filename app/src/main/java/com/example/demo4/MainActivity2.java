@@ -8,7 +8,7 @@ import android.widget.Toast;
 import com.example.mylibrary.MethodsActivity;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
         MethodsActivity i = new MethodsActivity();
        Toast.makeText(this, i.Call(), Toast.LENGTH_SHORT).show();
 
-
+    add();
     }
+
+    public void add() {
+    }
+
+
 }
